@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9A8C2AB61C5946DC007161CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C2AB51C5946DC007161CA /* main.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		9A8C2AB01C5946DC007161CA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		839696681C5A0AE3008C7C94 /* HomeTask3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HomeTask3; sourceTree = "<group>"; };
 		9A8C2AB21C5946DC007161CA /* HomeTask3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HomeTask3; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8C2AB51C5946DC007161CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +37,7 @@
 		9A8C2AA91C5946DC007161CA = {
 			isa = PBXGroup;
 			children = (
-				9A8C2AB41C5946DC007161CA /* HomeTask3 */,
+				839696681C5A0AE3008C7C94 /* HomeTask3 */,
 				9A8C2AB31C5946DC007161CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +48,6 @@
 				9A8C2AB21C5946DC007161CA /* HomeTask3 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9A8C2AB41C5946DC007161CA /* HomeTask3 */ = {
-			isa = PBXGroup;
-			children = (
-				9A8C2AB51C5946DC007161CA /* main.m */,
-			);
-			path = HomeTask3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +106,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8C2AB61C5946DC007161CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +222,7 @@
 				9A8C2ABB1C5946DC007161CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
